@@ -49,6 +49,11 @@ layout: default
         </header>
       {% endunless %}
 
+      {% comment %}<!-- Add image carousel for lab capabilities pages -->{% endcomment %}
+      {% if page.collection == 'lab_capabilities' and page.images %}
+        {% include carousel.html id=page.slug images=page.images interval=5000 %}
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
 

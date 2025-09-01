@@ -1,8 +1,8 @@
 ---
 title: Self-driving lab discovers principles for steering spontaneous emission
 authors: S. Desai, S. Addamane, J.Y. Tsao, I. Brener, R. Dingreville, P.P. Iyer
-date: '2024-01-01'
-venue: Arxiv
+date: '2025-08-14'
+venue: Nature Communications (Accepted)
 paperurl: 'https://arxiv.org/abs/2407.16083'
 collection: publications
 citation: S. Desai, S. Addamane, J.Y. Tsao, I. Brener, R. Dingreville, P.P. Iyer.

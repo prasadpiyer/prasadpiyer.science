@@ -1,22 +1,75 @@
 ---
 permalink: /
-title: "Reverse&nbsp;Engineering&nbsp;Collective&nbsp;Dynamics"
+title: "Autonomous&nbsp;Nanophotonics&nbsp;Lab&nbsp;@&nbsp;CINT"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 carousel_images:
-  - about/slide1.jpg
-  - about/slide2.jpg
-  - about/slide3.jpg
+  - banner/cint-buildings.jpg
+  - Lab/liquid_crystal_steering.png
+  - Lab/Photonic_Ising.png
+  - Lab/Quantum_Dot.png
+  - Lab/ultrafast_setups.png
+  - Lab/self-driving_lab_2.png
+
+carousel_durations:
+  - 12000
+  - 4000
+  - 4000
+  - 4000
+  - 4000
+  - 4000
+
+carousel_titles:
+  - "CINT Facility"
+  - "Liquid Crystal Steering"
+  - "Photonic Ising Machine"
+  - "Quantum Dot Platform"
+  - "Ultrafast Spectroscopy Setups"
+  - "Self-Driving Lab"
 ---
 
-<!-- {% include carousel.html id="about-carousel" images=page.carousel_images interval=5000 %} -->
+{% include lab-news-scroll.html %}
 
-![CINT Core Facility at Sandia National Laboratories](/images/banner/cint-buildings.jpg){: .align-center }
+{% include carousel.html id="lab-carousel" images=page.carousel_images durations=page.carousel_durations titles=page.carousel_titles interval=4000 %}
 
-I am a **Senior Member of Technical Staff** at the *Center for Integrated Nanotechnologies (CINT)*, Sandia National Laboratories, Albuquerque&nbsp;(NM). My research blends autonomous scientific discovery with reconfigurable nanophotonics, quantum optics and semiconductor quantum-dot systems. By combining nanofabrication, ultrafast spectroscopy and machine-learning–driven control, my group develops next-generation platforms for optical computing and on-chip light manipulation.
+Our mission at the **Autonomous Nanophotonics Lab** is to uncover and harness unexplored regimes of light–matter interaction for next-generation information processing.
 
-Previously, I was a **Senior LiDAR Systems Engineer** at *Lumotive Inc.* and served as **Technical Advisor** to the start-ups *Neurophos* and *Lumotive* on the productisation of metasurface technologies. I earned my **Ph.D.** and **M.S.** in Electrical & Computer Engineering (Electronics & Photonics) from the *University of California, Santa Barbara*, and a **B.Tech.** in Materials & Metallurgical Engineering from the *Indian Institute of Technology Kanpur*.
+Machine-learning autonomy drives every aspect of our research: from orchestrating high-throughput nanophotonic experiments that reveal novel physical phenomena, to designing structured photonic systems that perform complex computations at speeds and energy-efficiencies far beyond traditional electronics.
 
-My full curriculum vitae can be downloaded [here](/files/Prasad_P_Iyer__March_2025.pdf).
+In practice, we:
+
+* deploy autonomous machine-learning framework at the intersection of structured light with ultrafast spectroscopy and structured materials thorugh nanofabrication workflows to discover novel nanoscale light-matter interactions,
+* translate these discoveries into reconfigurable photonic hardware for optical and quantum computing, and
+* make our adaptive instrumentation and data pipelines openly available to the global *Center for Integrated Nanotechnologies (CINT)* user community.
+
+Whether you are a new CINT user, prospective student, or industry partner, we invite you to collaborate with us and accelerate your research through autonomous experimentation.
+
+## Highlighted Publications
+
+{% comment %} Assign highlighted papers {% endcomment %}
+{% assign autoSci = site.publications | where: "title", "AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery" | first %}
+{% assign autoSciTalk = site.talks | where: "title", "AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery" | first %}
+{% assign beamSteer = site.publications | where: "title", "Sub-picosecond steering of ultrafast incoherent emission from semiconductor metasurfaces" | first %}
+{% assign sdl = site.publications | where: "title", "Self-driving lab discovers principles for steering spontaneous emission" | first %}
+
+<div class="publications-cards">
+  <div class="publication-card">
+    <h3><a href="{{ autoSciTalk.url | relative_url }}">{{ autoSciTalk.title }}</a></h3>
+    <p class="archive__item-authors">{{ autoSciTalk.authors }}</p>
+    <p><em>{{ autoSciTalk.venue }}</em>, {{ autoSciTalk.date | date: '%Y' }}</p>
+  </div>
+
+  <div class="publication-card">
+    <h3><a href="{{ beamSteer.url | relative_url }}">{{ beamSteer.title }}</a></h3>
+    <p class="archive__item-authors">{{ beamSteer.authors }}</p>
+    <p><em>{{ beamSteer.venue }}</em>, {{ beamSteer.date | date: '%Y' }}</p>
+  </div>
+
+  <div class="publication-card">
+    <h3><a href="{{ sdl.url | relative_url }}">{{ sdl.title }}</a></h3>
+    <p class="archive__item-authors">{{ sdl.authors }}</p>
+    <p><em>{{ sdl.venue }}</em>, {{ sdl.date | date: '%Y' }}</p>
+  </div>
+</div>

@@ -6,7 +6,8 @@
   display: none;
   position: absolute;
   left: 0;
-  background-color: #f9f9f9;
+  /* Use the theme’s background color variable so the dropdown adapts to the chosen theme */
+  background-color: var(--global-bg-color);
   width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 0;
@@ -30,7 +31,8 @@
 }
 
 .dropdown li a:hover {
-  background-color: #f1f1f1;
+  /* Use the theme’s border color variable (a light shade in light mode, darker in dark mode) */
+  background-color: var(--global-border-color);
 }
 
 .has-dropdown:hover .dropdown {

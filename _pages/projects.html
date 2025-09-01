@@ -7,9 +7,29 @@ author_profile: false
 
 {% include base_path %}
 
-{% assign projects_sorted = site.projects | sort: "title" %}
-<div class="projects-list">
-{% for post in projects_sorted %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign projs = site.projects | sort: 'date' %}
+
+<!-- Projects collection render -->
+<div class="lab-projects">
+  <div class="lab-projects__grid">
+    {% for p in projs %}
+      <article class="lab-project-card">
+        <header class="lab-project-card__header">
+          <h2 id="{{ p.slug }}" class="lab-project-card__title">{{ p.title }}</h2>
+        </header>
+        {% if p.images %}
+          {% include carousel.html id=p.slug images=p.images interval=5000 %}
+        {% endif %}
+        <div class="lab-project-card__body">
+          {% if p.excerpt %}
+            <p class="lab-project-card__desc">{{ p.excerpt | markdownify }}</p>
+          {% elsif p.summary %}
+            <p class="lab-project-card__desc">{{ p.summary }}</p>
+          {% endif %}
+
+          <p><a href="{{ p.url }}" class="btn btn--primary">Read More →</a></p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
 </div> 

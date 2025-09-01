@@ -3,20 +3,33 @@
   {% assign slide_images = include.images %}
   {% if slide_images and slide_images.size > 0 %}
     {% for img in slide_images %}
+      {% if include.titles %}
+        {% assign caption = include.titles[forloop.index0] | default: '' %}
+      {% else %}
+        {% assign caption = '' %}
+      {% endif %}
       {% assign lower = img | downcase %}
+      {% if include.durations %}
+        {% assign duration = include.durations[forloop.index0] | default: '' %}
+      {% else %}
+        {% assign duration = '' %}
+      {% endif %}
       {% assign full_url = img | prepend: '/images/' | prepend: base_path %}
       {% if lower contains '.mov' %}
-        <video class="carousel-slide{% if forloop.first %} active{% endif %}" controls preload="metadata">
+        <video class="carousel-slide{% if forloop.first %} active{% endif %}" controls preload="metadata" {% if duration != '' %}data-duration="{{ duration }}"{% endif %}>
           <source src="{{ full_url }}" type="video/quicktime">
           <a href="{{ full_url }}">Open video</a>
         </video>
       {% elsif lower contains '.heic' %}
-        <a href="{{ full_url }}" target="_blank" rel="noopener" class="carousel-slide heic-slide{% if forloop.first %} active{% endif %}">
+        <a href="{{ full_url }}" target="_blank" rel="noopener" class="carousel-slide heic-slide{% if forloop.first %} active{% endif %}" {% if duration != '' %}data-duration="{{ duration }}"{% endif %}>
           HEIC image (open)
         </a>
       {% else %}
-        <a href="{{ full_url }}" target="_blank" rel="noopener">
-          <img src="{{ full_url }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}" onerror="this.remove();">
+        <a href="{{ full_url }}" target="_blank" rel="noopener" style="position:relative; display:block;">
+          <img src="{{ full_url }}" class="carousel-slide{% if forloop.first %} active{% endif %}" alt="slide {{ forloop.index }}" onerror="this.remove();" {% if duration != '' %}data-duration="{{ duration }}"{% endif %}>
+          {% if caption != '' %}
+            <span class="carousel-caption">{{ caption }}</span>
+          {% endif %}
         </a>
       {% endif %}
     {% endfor %}
@@ -80,6 +93,21 @@
     font-size: 0.9rem;
   }
   .image-carousel .heic-slide.active { display: flex; }
+  .image-carousel .carousel-caption {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    line-height:1.2;
+    pointer-events: none;
+  }
+  .image-carousel .carousel-slide + .carousel-caption { display:none; }
+  .image-carousel .carousel-slide.active + .carousel-caption { display:block; }
 </style>
 
 <script>
@@ -102,7 +130,16 @@
     if(prevBtn) prevBtn.addEventListener('click', prev);
     if(nextBtn) nextBtn.addEventListener('click', next);
     var intervalMs={{ include.interval | default: 4000 }};
-    var timer = slides.length>1 ? setInterval(next, intervalMs) : null;
+    var defaultInterval=intervalMs;
+    function scheduleNext(){
+      if(slides.length<=1) return;
+      var dur = parseInt(slides[idx].dataset.duration || slides[idx].parentNode?.dataset.duration || defaultInterval);
+      if(isNaN(dur) || dur<=0) dur = defaultInterval;
+      timer = setTimeout(function(){ next(); scheduleNext(); }, dur);
+    }
+    scheduleNext();
+    container.addEventListener('mouseenter', function(){ if(timer){ clearTimeout(timer); timer=null; } });
+    container.addEventListener('mouseleave', function(){ if(!timer){ scheduleNext(); } });
     container.addEventListener('mouseenter', function(){ if(timer){ clearInterval(timer); timer=null; } });
     container.addEventListener('mouseleave', function(){ if(!timer && slides.length>1){ timer=setInterval(next, intervalMs); } });
   })();

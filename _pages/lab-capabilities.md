@@ -19,9 +19,11 @@ Below is a snapshot of our experimental setups available in our lab. Click each 
         {% if cap.images %}
           {% include carousel.html id=cap.slug images=cap.images interval=5000 %}
         {% endif %}
-        {% if cap.summary %}<p class="lab-project-card__desc">{{ cap.summary }}</p>{% endif %}
         <div class="lab-project-card__body">
-          {{ cap.content }}
+          {% if cap.summary %}
+            <p class="lab-project-card__desc">{{ cap.summary }}</p>
+          {% endif %}
+          <p><a href="{{ cap.url }}" class="btn btn--primary">View Detailed Capabilities →</a></p>
         </div>
       </article>
     {% endfor %}

@@ -1,13 +1,24 @@
 ---
 title: "Quantum Photonics"
 slug: quantum-photonics
-date: 2025-01-01
+date: 2025-08-16
 images:
-  - lab/Quantum_Dot.png
-  - lab/Heterogenous_Integration.png
-  - lab/Heterogenous_Integration_2.png
+  - Lab/Quantum_Dot.png
+  - Lab/Heterogenous_Integration.png
+  - Lab/Heterogenous_Integration_2.png
 summary: "Integrated platforms for quantum light control."
 ---
 
-Semicondcutor quantum dot experiments were performed at 15 ± 5 K in an optical cryostat. A wide‑field microscope with a CCD was used to locate individual QDs, after which a confocal setup excited single QDs using a fiber‑coupled 515 nm laser diode operated below threshold. Emission was collected with a 50×, NA 0.42 objective and analyzed by a spectrometer with a 1200 g/mm grating. Two long‑pass filters blocked the excitation light. The same optical path was used for power‑dependence and g(2)(t) measurements; for the latter, angle‑tunable short‑pass and long‑pass edge filters isolated the main QD transition. The second‑order correlation g(2)(t) was obtained from the photon counts in two superconducting nanowire broadband detectors as functions of time.
+Our quantum photonics platform integrates semiconductor quantum emitters with nanophotonic structures for controlled light-matter interactions. We develop heterogeneous integration techniques for coupling quantum dots and other emitters to metasurfaces, photonic crystals, and waveguide systems, enabling enhanced emission directionality, Purcell enhancement, and quantum light generation.
+
+## Experimental Capabilities
+
+### Cryogenic Quantum Emitter Characterization
+We operate closed-cycle optical cryostats for low-temperature (4-300 K) characterization of quantum emitters. The system features wide-field and confocal microscopy configurations for locating and addressing individual emitters, with high-numerical-aperture objectives for efficient collection and precise spatial resolution. Variable-temperature control enables temperature-dependent studies of emission properties and coherence.
+
+### Single-Photon Spectroscopy and Correlation Measurements
+Our spectroscopy setup provides high-resolution emission analysis using precision grating spectrometers across visible to near-infrared wavelengths. Tunable excitation sources with sub-threshold operation ensure minimal perturbation of quantum states. For quantum light characterization, we employ superconducting nanowire single-photon detectors with sub-nanosecond timing resolution for g⁽²⁾(τ) correlation measurements, enabling verification of single-photon emission and antibunching properties.
+
+### Integrated Photonic Device Characterization
+Transmission and reflection spectroscopy systems characterize the optical response of nanophotonic devices using broadband sources and high-dynamic-range detection. Polarization-resolved measurements with continuously variable analyzers reveal anisotropic responses and mode coupling effects. The setup accommodates various device geometries and substrate materials with normalized background subtraction for accurate spectral analysis.
 
