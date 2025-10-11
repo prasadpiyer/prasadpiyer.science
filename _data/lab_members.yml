@@ -69,7 +69,4 @@ industrial:
     img: "SNOChip_logo.avif"
     bio: "Mid-IR metalenses"
     url: ""
-  - name: "META"
-    img: "META-logo.png"
-    bio: "Beam-steering LEDs"
-    url: ""
+    
