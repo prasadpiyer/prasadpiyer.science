@@ -9,7 +9,7 @@ carousel_images:
   - banner/cint-buildings.jpg
   - Lab/liquid_crystal_steering.png
   - Lab/Photonic_Ising.png
-  - Lab/Quantum_Dot.png
+  - Lab/Closed_cycle_He_cryostat.png
   - Lab/ultrafast_setups.png
   - Lab/self-driving_lab_2.png
 
@@ -25,7 +25,7 @@ carousel_titles:
   - "CINT Facility"
   - "Liquid Crystal Steering"
   - "Photonic Ising Machine"
-  - "Quantum Dot Platform"
+  - "Closed-cycle He Cryostat"
   - "Ultrafast Spectroscopy Setups"
   - "Self-Driving Lab"
 ---
