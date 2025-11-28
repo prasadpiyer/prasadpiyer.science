@@ -11,25 +11,25 @@ images:
   - Lab/Photonic_Ising.png
 ---
 
-### Nature's own computer
+### Natural Ising Machines
 
-What if the hardest computational problems in the world—logistics, drug design, AI training—could be solved not by programming silicon, but by simply *arranging matter*? Welcome to the world of **natural Ising machines**, where physics itself performs the computation.
+We investigate **natural Ising machines**, where physical systems are used to solve computational problems. Specifically, we explore how magnetic frustration in artificial spin-ice lattices and optical interference patterns can map to the Ising Hamiltonian.
 
-At the heart of our approach lies a profound insight: magnetic frustration in artificial spin-ice lattices and optical interference patterns *are* the Ising Hamiltonian—no simulation needed. By fabricating nanoscale magnetic islands in exotic geometries (kagome, square ice) and coupling them to free-space optical systems, we've built computers that exploit nature's parallelism to tackle NP-hard optimization in milliseconds.
+By fabricating nanoscale magnetic islands in specific geometries (e.g., kagome, square ice) and coupling them to free-space optical systems, we aim to utilize inherent parallelism for optimization tasks.
 
-### Engineering frustrated magnetism for computation
+### Engineering Frustrated Magnetism
 
-**Plasmonic spin-ice metasurfaces** ― Our nickel nano-island arrays don't just look pretty—they embody tunable magnetic frustration with >5× magneto-optic enhancement. These systems let us watch computational phase transitions unfold in real magnetic materials, revealing how nature explores energy landscapes that confound classical algorithms.
+**Plasmonic Spin-Ice Metasurfaces** ― We utilize nickel nano-island arrays to create tunable magnetic frustration with >5× magneto-optic enhancement. These systems allow for the observation of computational phase transitions and the exploration of energy landscapes.
 
-**Ultrafast magnetic movies** ― Using laser-illuminated photoemission electron microscopy (PEEM), we've captured the first femtosecond-resolution, 30-nanometer-precision videos of magnetic vertices flipping in frustrated lattices. It's like watching an Ising solver compute in slow motion—except it's happening at terahertz rates.
+**Ultrafast Magnetic Imaging** ― Using laser-illuminated photoemission electron microscopy (PEEM), we have captured femtosecond-resolution videos of magnetic vertices flipping in frustrated lattices, providing insight into dynamics at terahertz rates.
 
-**2-million-spin optical solver** ― By encoding spin couplings into spatial light patterns and reading out ground states through Fourier optics, our free-space machine tackles fully-connected Ising problems at *room temperature*. Max-Cut problems and spinodal decomposition that would take supercomputers hours? Solved optically in milliseconds, using only photons and spatial light modulators.
+**Optical Solver for Optimization** ― We have developed a free-space machine that encodes spin couplings into spatial light patterns and reads out ground states through Fourier optics. This system addresses fully-connected Ising problems, such as Max-Cut, at room temperature using spatial light modulators.
 
-**Deep learning meets magnetism** ― Our generative models don't just analyze spin configurations—they discover the hidden physics governing magnetic frustration, autonomously learning structure-property relationships from microscopy images alone.
+**Deep Learning and Magnetism** ― We employ generative models to analyze spin configurations and discover physical relationships governing magnetic frustration from microscopy images.
 
-### Why natural computation matters
+### Significance
 
-We're proving that **the next revolution in computing won't come from smaller transistors—it'll come from harnessing the physics that matter naturally performs**. Energy-efficient, massively parallel, and fundamentally scalable, these natural analogue computers point toward a future where optimization happens at the speed of physics itself.
+This research demonstrates the potential of **natural analogue computers** to perform optimization tasks efficiently. By harnessing physical interactions, we aim to develop energy-efficient and scalable computing architectures.
 
 ### Suggested reading
 * **Talk:** [Ultrafast non-reciprocal spin resonances in frustrated plasmonic metasurfaces](/talks/2024-01-01-Ultrafast-non-reciprocal-spin-resonances-in-frustrated-plasmonic-metasurfaces)

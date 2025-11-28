@@ -5,7 +5,7 @@ permalink: /lab-instruments/
 author_profile: false
 ---
 
-Our laboratory is equipped with state-of-the-art instrumentation for nanophotonics, quantum optics, and ultrafast spectroscopy research. Below is a comprehensive list of major instruments available in our facility.
+Our laboratory is equipped with instrumentation for nanophotonics, quantum optics, and ultrafast spectroscopy research. Below is a list of major instruments available in our facility.
 
 <style>
 .instrument-specs {

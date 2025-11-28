@@ -13,25 +13,25 @@ images:
   - Lab/ultrafast_Laser_Astrella.png
 ---
 
-### What if experiments could teach themselves?
+### Self-Driving Nanophotonics
 
-Imagine nanophotonic systems that autonomously discover how to manipulate femtosecond pulses—exploring billions of configurations faster than any human could, uncovering hidden physics along the way. This is **self-driving nanophotonics**, where AI doesn't just assist experiments—it becomes the experimentalist.
+We are developing nanophotonic systems that utilize autonomous experimentation to manipulate femtosecond pulses. This involves exploring large parameter spaces to optimize light-matter interactions and uncover physical principles.
 
-Our flagship platform, **AutoSciLab**, transforms laboratories into autonomous discovery engines. By combining machine learning techniques including variational autoencoders, active learning, and neural network equation learners, it closes the design–fabrication–characterization loop in *minutes*, not months. The result? Physical insights that humans never imagined, extracted automatically from high-dimensional experimental data.
+Our platform, **AutoSciLab**, integrates machine learning techniques—such as variational autoencoders, active learning, and neural network equation learners—to close the design–fabrication–characterization loop. This allows for the efficient extraction of physical insights from high-dimensional experimental data.
 
-### Breakthrough discoveries
+### Key Developments
 
-**Ultrafast spin steering** ― We've shattered the speed limit for controlling light's polarization. Our chiral metasurfaces independently rotate left- and right-handed circularly-polarized beams by >30° within *140 femtoseconds*—enabling sub-picosecond manipulation of ultrafast quantum states and spin-encoded information.
+**Ultrafast Spin Steering** ― We have demonstrated chiral metasurfaces capable of independently rotating left- and right-handed circularly-polarized beams by >30° within *140 femtoseconds*. This enables sub-picosecond manipulation of ultrafast quantum states and spin-encoded information.
 
-**Physics-aware optical computing** ― Forget digital gates. Our photonic Ising machines harness free-space diffraction to solve 2-million-spin optimization problems at kilohertz rates, using only Fourier optics. NP-hard problems that stump conventional computers yield to light in milliseconds.
+**Physics-Aware Optical Computing** ― Our photonic Ising machines utilize free-space diffraction to solve optimization problems. By harnessing Fourier optics, we address 2-million-spin optimization problems at kilohertz rates.
 
-**Chip-scale femtosecond diagnostics** ― By encoding quadratic phase profiles into metasurfaces, we've built the world's first passive photonic streak camera—deflecting 300-femtosecond pulses by 15° to capture ultrafast dynamics without complex electronics.
+**Chip-Scale Femtosecond Diagnostics** ― We have developed a passive photonic streak camera by encoding quadratic phase profiles into metasurfaces. This device deflects 300-femtosecond pulses by 15° to capture ultrafast dynamics without complex electronics.
 
-**Autonomous discovery at scale** ― AutoSciLab has autonomously rediscovered Newton's laws from projectile motion and uncovered new structure–property relationships in nanophotonic emission—demonstrating that AI can not only optimize, but truly *understand* physical systems.
+**Autonomous Discovery** ― AutoSciLab has been used to rediscover physical laws and uncover new structure–property relationships in nanophotonic emission, demonstrating the capability of AI to aid in physical understanding.
 
-### Why this matters
+### Impact
 
-We're engineering a future where **photonic processors think, adapt, and compute at light speed**—where terahertz-bandwidth decision-making enables real-time sensing, ultrafast communication, and computational paradigms impossible with electrons. The age of programmable light has arrived.
+Our work aims to enable **photonic processors** capable of real-time sensing, ultrafast communication, and efficient computation. This represents a shift towards programmable photonic systems.
 
 ### Suggested reading
 * **Publication:** [AutoSciLab: A Self-Driving Laboratory For Interpretable Scientific Discovery](/publication/2024-01-01-AutoSciLab-A-Self-Driving-Laboratory-For-Interpretable-Scientific-Discovery)

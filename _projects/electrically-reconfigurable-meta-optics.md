@@ -15,59 +15,59 @@ images:
   - papers/electrically-reconfigurable-metasurfaces-using-heterojunction-resonators/fig-2.png
 ---
 
-### Programmable optics at the flip of a switch
+### Electrically Programmable Optics
 
-Autonomous cars. AR headsets. Thermal cameras. Chemical sensors. The vision systems powering tomorrow's technology all demand something that doesn't exist at scale: **electrically programmable optics that bend light on command, consume milliwatts, and fit on a semiconductor chip**.
+Advanced vision systems for autonomous vehicles, AR, and sensing require **electrically programmable optics** that are compact and energy-efficient.
 
-We're making this real by engineering metasurfaces with voltage-tunable materials—from **liquid crystals** that modulate near-infrared with sub-5 V drive to **vanadium dioxide phase transitions** that flip mid-infrared properties in nanoseconds. It's photonics controlled as easily as transistors, with no moving parts.
+We engineer metasurfaces using voltage-tunable materials—such as **liquid crystals** and **vanadium dioxide (VO₂)**—to achieve dynamic control over light properties with low power consumption and no moving parts.
 
 ---
 
 ## Liquid Crystal Meta-Optics
 
-### Reinventing beam control for LiDAR and displays
+### Beam Control for LiDAR and Displays
 
-The displays in your phone. The LiDAR guiding autonomous cars. Future AR glasses that seamlessly blend digital and physical worlds. All rely on **liquid crystal meta-optics**—the convergence of voltage-tunable anisotropic materials with nanophotonic resonators.
+Liquid crystal meta-optics combine voltage-tunable anisotropic materials with nanophotonic resonators to enable dynamic beam steering and shaping.
 
-**10,000 phase shifters on your fingernail** ― Our patented row/column-addressable architecture (US 11,487,183) crams >10,000 individually controllable phase elements onto a 3×3 mm chip. Solid-state LiDAR with MEMS-beating speed, mechanical robustness, and wafer-scale manufacturability.
+**High-Density Phase Shifters** ― Our row/column-addressable architecture (US 11,487,183) integrates >10,000 controllable phase elements on a 3×3 mm chip, enabling solid-state LiDAR.
 
-**Light that changes color and direction on demand** ― By monolithically integrating liquid crystal overlayers with GaN micro-LEDs, we've built active light sources that electrically tune both emission color *and* beam angle. Imagine displays where every pixel is also a steerable projector—perfect for next-generation AR/VR.
+**Active Light Sources** ― We have integrated liquid crystal overlayers with GaN micro-LEDs to create light sources with electrically tunable emission color and beam angle, applicable to AR/VR displays.
 
-**Achromatic across the visible spectrum** ― Dispersion kills most beam steering—until now. Our multi-layer LC-metasurface stacks maintain constant deflection angles from 450 to 950 nm, enabling broadband solid-state optics for depth sensing and optical communications.
+**Broadband Achromatic Steering** ― Our multi-layer LC-metasurface stacks demonstrate constant deflection angles across the 450–950 nm range, useful for depth sensing and communications.
 
-**Dynamic holography at 60 Hz** ― Centimeter-scale phased arrays driven at <5 V reconstruct live 3D holographic scenes at video frame rates. Real-time holographic projection isn't science fiction anymore—it's voltage-controlled nanophotonics.
+**Dynamic Holography** ― We demonstrate centimeter-scale phased arrays capable of reconstructing 3D holographic scenes at video frame rates using <5 V drive.
 
 ---
 
 ## Phase-Transition Photonics
 
-### Infrared control via VO₂ and heterojunction resonators
+### Infrared Control via VO₂
 
-Thermal imaging. Chemical spectroscopy. Free-space optical links. Mid-infrared (MIR) photonics powers critical technologies—but traditional systems rely on bulky mechanical scanners or cryogenic cooling. We've changed the game by marrying **III–V semiconductor resonators with voltage-triggered phase transitions** in vanadium dioxide (VO₂).
+Mid-infrared (MIR) photonics are critical for thermal imaging and sensing. We utilize **III–V semiconductor resonators integrated with vanadium dioxide (VO₂)** to achieve voltage-triggered phase transitions for optical control.
 
-**Heterojunction resonators with 180° phase swing** ― Our pioneering *Advanced Optical Materials* work demonstrated that GaInAs/AlInAs resonators achieve 180° phase shifts across 200 nm bandwidth when integrated with carrier-injection junctions. Dual-channel control (carrier density + VO₂ switching) gives unprecedented programmability.
+**Heterojunction Resonators** ― Our work demonstrates GaInAs/AlInAs resonators achieving 180° phase shifts across a 200 nm bandwidth when integrated with carrier-injection junctions.
 
-**20 dB modulation at 5 volts** ― Forget multi-kilovolt modulators. Our voltage-switched VO₂ devices deliver 20 dB optical contrast at just 5 V—compatible with CMOS drive electronics. Fast, efficient, and scalable.
+**Efficient Modulation** ― Voltage-switched VO₂ devices provide 20 dB optical contrast at 5 V, compatible with CMOS electronics.
 
-**Steering 4 μm light at 40 kHz** ― We've built 1×64 phased arrays that electrically steer mid-infrared beams by ±30° with 40 kHz refresh rates. No mirrors, no motors—just voltage-controlled phase transitions performing beam scanning faster than mechanical systems can dream of.
+**Fast Beam Steering** ― We have developed 1×64 phased arrays capable of steering mid-infrared beams by ±30° at 40 kHz rates using voltage-controlled phase transitions.
 
-**Sub-picosecond ultrafast control** ― By combining femtosecond pump pulses with metasurface-encoded phases, we've achieved sub-picosecond steering of incoherent emission from semiconductors—opening doors to ultrafast infrared imaging and communication.
+**Ultrafast Control** ― Combining femtosecond pump pulses with metasurfaces allows for sub-picosecond steering of incoherent emission.
 
-**Generating entangled photons** ― Beyond classical control, we're exploring the quantum frontier. Our voltage-tunable metasurfaces can generate Spontaneous Parametric Down-Conversion (SPDC) photons, emitting entangled photon pairs on demand—compact, chip-scale quantum light sources.
+**Quantum Light Generation** ― We are exploring voltage-tunable metasurfaces for generating Spontaneous Parametric Down-Conversion (SPDC) photons, enabling compact quantum light sources.
 
 ---
 
-## From lab to product
+## Conclusion
 
-We're replacing the mechanical past with an **all-electronic photonics future**. Low-power, wafer-scale, and faster than any moving part, electrically reconfigurable metasurfaces are poised to:
+Our research aims to replace mechanical optical systems with **solid-state, electrically reconfigurable metasurfaces**. These technologies offer low-power, wafer-scale solutions for:
 
-* **Transform automotive LiDAR** — Solid-state beam steering replacing MEMS mirrors
-* **Enable glasses-free 3D displays** — Dynamic holographic projection at video rates
-* **Revolutionize thermal imaging** — Programmable infrared filters without scanning mirrors
-* **Accelerate chemical spectroscopy** — Tunable filters at video rates for real-time sensing
-* **Power adaptive free-space communication** — Beam forming that tracks mobile links
+* **Automotive LiDAR**
+* **Holographic displays**
+* **Thermal imaging**
+* **Chemical spectroscopy**
+* **Free-space communication**
 
-The age of programmable light has arrived.
+This work advances the field of programmable photonics.
 
 ### Suggested reading
 

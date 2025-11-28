@@ -39,34 +39,34 @@ carousel_titles:
 
 ## Autonomy of Scientific Discovery
 
-What if scientific experiments could design, execute, and interpret themselves—discovering physical principles faster than any human could imagine? At the **Autonomous Nanophotonics Lab**, we're making this vision a reality.
+The **Autonomous Nanophotonics Lab** focuses on the development of self-driving experimental platforms that integrate artificial intelligence with nanophotonics. Our goal is to accelerate scientific discovery by automating the design, execution, and analysis of experiments.
 
-We're pioneering a radical new paradigm where **artificial intelligence becomes the experimentalist**, autonomously navigating vast parameter spaces to uncover hidden physics, optimize exotic materials, and design photonic systems that harness light in ways never before possible.
+We are developing systems where **artificial intelligence drives the experimental process**, navigating parameter spaces to uncover physical principles, optimize material properties, and design photonic systems with enhanced capabilities.
 
-### Our Approach: Where AI Meets Light
+### Our Approach: AI-Driven Experimentation
 
-Machine learning doesn't just assist our research—it **drives discovery**. Our self-driving laboratories integrate:
+Our research integrates machine learning with experimental photonics to enable:
 
-* **Autonomous experimentation** at femtosecond timescales, where AI orchestrates ultrafast spectroscopy, structured light patterns, and nanofabrication to reveal emergent light–matter interactions invisible to traditional methods
-* **Interpretable discovery engines** that don't just optimize—they extract human-readable physical laws from high-dimensional experimental data, turning black-box results into actionable scientific insight  
-* **Reconfigurable photonic hardware** spanning quantum emitters, liquid-crystal metasurfaces, and photonic Ising machines that compute at the speed of light with energy efficiencies orders of magnitude beyond electronics
+* **Autonomous experimentation**: We utilize AI to orchestrate ultrafast spectroscopy, structured light generation, and nanofabrication, allowing for the exploration of light–matter interactions.
+* **Interpretable discovery**: We develop algorithms designed to extract physical laws from high-dimensional experimental data, aiming to provide actionable scientific insights.
+* **Reconfigurable photonic hardware**: Our work spans quantum emitters, liquid-crystal metasurfaces, and photonic Ising machines, aiming for high-speed computation and energy efficiency.
 
-### From Quantum Dots to Next-Gen Computing
+### Research Areas
 
-Our discoveries are enabling transformative technologies:
+Our research contributes to several key areas:
 
-* **Quantum information systems** with deterministic single-photon sources precisely controlled at the nanoscale
-* **Ultrafast optical computing** performing complex optimization and AI inference entirely with photons
-* **Intelligent LiDAR and imaging** using electrically reconfigurable metasurfaces for autonomous vehicles and AR/VR
-* **Self-driving scientific instruments** openly available to the global research community through the *Center for Integrated Nanotechnologies (CINT)*
+* **Quantum information systems**: Developing deterministic single-photon sources with precise nanoscale control.
+* **Ultrafast optical computing**: Implementing optimization and AI inference tasks using photonic hardware.
+* **Intelligent LiDAR and imaging**: Utilizing electrically reconfigurable metasurfaces for applications in autonomous vehicles and AR/VR.
+* **Self-driving scientific instruments**: Developing tools available to the research community through the *Center for Integrated Nanotechnologies (CINT)*.
 
-### Come work with us !
+### Collaboration Opportunities
 
-We are part of the [Center for Integrated Nanotechnologies (CINT)](https://cint.lanl.gov), a DOE Nanoscale Science Research Center. Interested in using our facilities? [Submit a new user proposal here](https://cint.sandia.gov).
+We are part of the [Center for Integrated Nanotechnologies (CINT)](https://cint.lanl.gov), a DOE Nanoscale Science Research Center. Researchers interested in using our facilities can [submit a new user proposal here](https://cint.sandia.gov).
 
-Whether you're a **prospective student** seeking to shape the future of science, a **CINT user** looking to supercharge your research with autonomous tools, or an **industry partner** ready to translate breakthrough physics into transformative products—we invite you to collaborate with us.
+We invite collaborations with **prospective students**, **CINT users**, and **industry partners** interested in autonomous scientific tools and nanophotonics.
 
-**The age of human-limited discovery is transforming into the autonomous era.**
+**We are transitioning scientific discovery into an autonomous era.**
 
 ## Highlighted Publications
 

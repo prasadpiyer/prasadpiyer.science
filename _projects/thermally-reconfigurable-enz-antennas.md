@@ -12,23 +12,21 @@ images:
   - papers/ultrawide-thermal-free-carrier-tuning-of-dielectric-antennas-coupled-to-epsilon-near-zero-substrates/fig-2.png
 ---
 
-### Antennas that adapt in real time
+### Thermally Reconfigurable Antennas
 
-Conventional optics is static—once you fabricate a lens or antenna, its properties are fixed forever. But what if **optical devices could reshape themselves on demand**, adapting to changing environments, switching tasks, or optimizing performance in real time?
+We are developing **optical devices capable of real-time reconfiguration** using **epsilon-near-zero (ENZ) substrates**. By depositing nanophotonic antennas onto ENZ films (e.g., doped indium oxide, cadmium oxide), we leverage field confinement near the zero-index transition to achieve resonance shifts and radiation pattern control.
 
-We're making this vision real using **epsilon-near-zero (ENZ) substrates** that amplify tiny perturbations into dramatic optical shifts. By depositing nanophotonic antennas onto ENZ films like doped indium oxide and cadmium oxide, we exploit extreme field confinement near the zero-index transition to achieve resonance shifts, Q-factor tuning, and radiation pattern reconfiguration with milliwatt-scale heating or modest voltages.
+### Tunability via ENZ Materials
 
-### Extreme tunability from exotic materials
+**ENZ Amplification of Thermo-Optic Effects** ― By coupling dielectric resonators to ENZ substrates, we have demonstrated 5 nm/V tuning, a significant enhancement over conventional silicon antennas, while maintaining high Q-factors (>150). This is achieved without phase-change materials, relying instead on the field concentration properties of ENZ materials.
 
-**ENZ amplification of thermo-optic effects** ― Conventional silicon antennas shift by ~0.1 nm per Kelvin. Boring. By coupling dielectric resonators to ENZ substrates, we've demonstrated 5 nm/V tuning (10× enhancement) while maintaining high Q-factors >150. The secret? ENZ materials concentrate fields so intensely that even tiny refractive index changes trigger massive resonance shifts—**without relying on phase-change materials**.
+**Thermally Reconfigurable Meta-Lenses** ― We have developed binary-phase CdO pillar arrays that allow for dynamic reconfiguration of focal length (from 50 to 120 μm) using 10 milliwatts of Joule heating.
 
-**Thermally reconfigurable meta-lenses** ― Forget fixed optics. Our binary-phase CdO pillar arrays dynamically reconfigure focal length from 50 to 120 μm with just 10 milliwatts of Joule heating. It's adaptive imaging without moving parts—lenses that literally reprogram themselves via temperature.
+**High Efficiency** ― The field enhancement near ENZ transitions enables optical reconfiguration with high efficiency, suitable for low-power applications.
 
-**Micro-Kelvin efficiency** ― Thanks to the extreme field enhancement near ENZ transitions, we achieve optical reconfiguration with microkelvin-per-milliwatt efficiency. This isn't lab curiosity—it's practical tunability at power budgets compatible with battery-operated devices.
+### Future Outlook
 
-### The programmable optics era
-
-We're pioneering a future where **optical components are no longer passive fixtures, but active, intelligent elements** that sense, adapt, and optimize. Adaptive infrared cameras that reconfigure their spectral response on the fly. Programmable thermal emitters for radiative cooling. Dynamic wavefront shapers for free-space communication that compensates for atmospheric turbulence in real time. The static optics era is ending—reconfigurable photonics is here.
+Our work contributes to the development of **active optical elements** that can sense and adapt. Potential applications include adaptive infrared cameras, programmable thermal emitters, and dynamic wavefront shapers for free-space communication.
 
 ### Suggested reading
 * **Publication:** [High-Q, Size-Independent, and Reconfigurable Optical Antennas Embedded in Zero-Index Cavities](/publication/2025-10-07-high-q-optical-antennas-enz) (*ACS Nano* 2025)

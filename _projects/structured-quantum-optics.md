@@ -12,25 +12,25 @@ images:
   - Lab/Heterogenous_Integration_2.png
 ---
 
-### Deterministic quantum light, by design
+### Deterministic Quantum Light Sources
 
-The promise of quantum computing hinges on a deceptively simple challenge: generating single photons on demand, with perfect indistinguishability, at room temperature, on a manufacturable chip. For decades, this has been a fundamental bottleneck. We're solving it by **engineering the quantum vacuum itself**.
+A key challenge in quantum computing is the generation of single photons on demand with high indistinguishability. Our research focuses on **engineering the photonic environment** of semiconductor quantum dots to address this.
 
-Our approach reimagines semiconductor quantum dots not as isolated atoms, but as **active components embedded within designer photonic environments**. By wrapping GaAs quantum emitters in metasurfaces, dielectric nanocavities, and carrier-funneling nanostructures, we control spontaneous emission at the most fundamental level—dictating where, when, and how photons are born.
+We integrate GaAs quantum emitters with metasurfaces, dielectric nanocavities, and carrier-funneling nanostructures to control spontaneous emission, aiming for precise regulation of photon generation.
 
-### Quantum emitters, turbocharged
+### Enhanced Quantum Emitters
 
-**Metasurface-enhanced extraction** ― Standard quantum dots lose 99% of their photons to substrate modes. We've changed the game: our *Nano Letters* metasurface integration achieves order-of-magnitude collection efficiency enhancement while preserving near-perfect indistinguishability—the holy grail for quantum communication.
+**Metasurface-Enhanced Extraction** ― We have demonstrated that metasurface integration can significantly enhance collection efficiency while preserving indistinguishability, which is critical for quantum communication.
 
-**Deterministic brightness without trade-offs** ― Conventional wisdom says you sacrifice coherence for brightness. Not here. Our graded-bandgap carrier funnels guide charge carriers to quantum dots with order-of-magnitude efficiency enhancement, delivering bright emission without degrading quantum properties. It's deterministic single-photon generation at scale.
+**Deterministic Brightness** ― By utilizing graded-bandgap carrier funnels, we guide charge carriers to quantum dots, enhancing efficiency and delivering bright emission without degrading quantum properties.
 
-**Three photons from one quantum dot** ― By engineering super-bunched trion cascades (XX⁺→2X⁺ transitions), we've coaxed single quantum dots to emit *three temporally ordered photons* in a controlled sequence. This opens pathways to on-chip cluster states and photonic quantum computing.
+**Multi-Photon Generation** ― We have engineered super-bunched trion cascades (XX⁺→2X⁺ transitions) to enable single quantum dots to emit *three temporally ordered photons* in a controlled sequence, relevant for on-chip cluster states.
 
-**Monolithic quantum circuits** ― Waveguide routers and integrated metalenses don't just collect photons—they direct them into on-chip photonic circuits with sub-decibel loss. For the first time, we're building quantum systems where emitters and photonic logic coexist on the same semiconductor wafer.
+**Monolithic Quantum Circuits** ― We are developing waveguide routers and integrated metalenses to direct photons into on-chip photonic circuits with low loss, enabling the coexistence of emitters and photonic logic on the same wafer.
 
-### The quantum future, now manufacturable
+### Scalable Quantum Photonics
 
-We're not just improving quantum emitters—we're **industrializing quantum photonics**. By co-designing emitters with their photonic environments, we're paving the way to wafer-scale quantum chips where every photon source is deterministic, every qubit is addressable, and quantum networks become as manufacturable as transistors.
+Our goal is to **industrialize quantum photonics** by co-designing emitters with their photonic environments. This approach supports the development of wafer-scale quantum chips with deterministic photon sources and addressable qubits.
 
 ### Suggested reading
 * **Publication:** [Efficient single-photon emission via quantum-confined charge funneling to quantum dots](/publication/2025-07-22-efficient-single-photon-emission)
